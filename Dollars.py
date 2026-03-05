@@ -1,0 +1,13 @@
+print("1 Dollar = 83 Rs")
+print("=================================")
+Milk=input("Enter the price of milk:")
+Egg=input("Enter the price of egg:")
+Bread=input("Enter the price of bread:")
+milk=float(Milk)
+egg=float(Egg)
+bread=float(Bread)
+print("===================================")
+Dollars=milk+egg+bread
+print("Indian rupees total=",Dollars,".RS")
+print("===================================")
+print("US Total =",(Dollars/83)," Dollars")
